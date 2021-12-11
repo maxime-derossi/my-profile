@@ -1,0 +1,112 @@
+/* Custom design witch selectors */
+
+
+h1 {
+	font-family: Courier;
+	font-size: 45px;
+}
+
+
+h2 {
+
+	color : rgb(0,128,255);
+	font-size: 27px;
+	font-family:  Courier;
+
+}
+
+p {
+	font-family: Helvetica;
+	font-size: 15px;
+}
+
+li {
+	font-family: Helvetica;
+	font-style: strong;
+}
+
+body {
+
+	color : rgb(0,0,0);
+	background-color: rgb(215,230,255);
+	font-size : 30px:;
+	line-height:  1.5;
+	letter-spacing : 0.1px;
+	text-align:  justify;
+	text-decoration: none;
+	font-weight: lighter;
+}
+
+a {
+	color : rgb(0,128,255);;
+	text-decoration : underline;
+	transition : color 0.3s ease;
+	font-family: Helvetica;
+}
+
+a:hover {
+	color : #2F4F4F;
+	text-decoration : none;
+
+}
+
+/* Custom design witch class */
+
+.container {
+	width: 700px;
+	margin:40px auto;
+}
+
+@media (max-width :760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width :500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin:  20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius :20%;
+}
+
+.btn-blue {
+	background-color: rgb(215,230,255);
+	color :rgb(0,128,255);
+	padding : 15px 20px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-right : 49px;
+	text-align: center;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+/* Custom design witch id */
+
+#introduction p {
+	margin-bottom: 40px;
+}
